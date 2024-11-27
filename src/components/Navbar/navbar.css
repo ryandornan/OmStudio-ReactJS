@@ -1,0 +1,17 @@
+/* Navbar.css */
+.navbar {
+    background-color: var(--background-dark);
+    color: var(--secondary-color);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    color: var(--secondary-color);
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: var(--primary-color);
+  }
+  
