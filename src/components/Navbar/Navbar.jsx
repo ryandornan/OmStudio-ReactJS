@@ -38,7 +38,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#products">
-                  Products
+                  Services
                 </a>
               </li>
               <li className="nav-item">
@@ -51,7 +51,7 @@ function Navbar() {
         </div>
 
         <div className="nav-links">
-          <i class="fa-brands fa-instagram"></i>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
         </div>
       </div>
     </nav>

@@ -3,7 +3,7 @@
     background-color: var(--background-light);
     color: var(--secondary-color);
     box-shadow: 0px 4px 6px rgba(255, 65, 65, 0.1);
-    font-weight: bold;
+    font-weight: 400;
     padding: 24px 0;
   }
   
@@ -14,11 +14,15 @@
   }
   
   .navbar a:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
   }
 
   i {
     color: var(--text-primary);
     font-size: 24px;
+  }
+
+  i:hover {
+    color: var(--secondary-colour);
   }
   

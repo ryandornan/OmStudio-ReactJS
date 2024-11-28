@@ -10,11 +10,32 @@ function Testimonials () {
             subHeading={"TESTIMONIALS"}
             heading={"What Our Clients Say"}
             />
-            <TestimonialsCard
-            quote={"Service was exceptional, and it's clear that you have a genuine passion for what vou do. The attention to detall and willingness to personalize the experience made it truly memorable."}
-            img={"public/img/yoga-instructor-03.png"}
-            name={"Eliza Rose"}
-            />
+
+            <div className="testimonals d-flex align-items-centre justify-content-between">
+
+                <TestimonialsCard
+                quote={
+                    "I can't recommend this enough! The environment is so welcoming, and every session feels tailored to my needs. It's the perfect escape from a busy schedule."
+                }
+                img={"public/img/yoga-testimonial-02.png"}
+                name={"Oliver Bennett"}
+                />
+
+                <TestimonialsCard
+                quote={"Service was exceptional, and it's clear that you have a genuine passion for what you do. The attention to detall made it truly memorable."}
+                img={"public/img/yoga-instructor-03.png"}
+                name={"Eliza Rose"}
+                />
+
+                <TestimonialsCard
+                quote={
+                    "Each session brings a sense of peace and clarity that stays with me long after. The team truly understands the importance of mind-body connection."
+                }
+                img={"public/img/yoga-testimonial-03.png"}
+                name={"Samuel Carter"}
+                />
+
+            </div>
             
         </div>
     ) 

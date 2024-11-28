@@ -10,8 +10,8 @@
 .benefits-two h3 {
     line-height: 1.5; 
     max-width: 700px; 
-    margin: 0 auto 24px; /* Centers the header with `auto` margins */
-    text-align: center; /* Ensures text is centered within the header */
+    margin: 0 auto 24px; 
+    text-align: center; 
 }
 
 .benefits-two h3 span {
@@ -26,6 +26,6 @@
 }
 
 .benefit:hover {
-    transform: translateY(-10px); /* Hover effect for interactivity */
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-10px); 
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2); 
 }

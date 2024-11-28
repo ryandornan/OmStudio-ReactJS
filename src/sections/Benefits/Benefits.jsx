@@ -16,7 +16,7 @@ function Benefits () {
                     <h4>CHOOSE OM STUDIO</h4>
                     <div className="benefits-lower-text">
                         <h2 className="my-4">The best way to increased flexibility & improved posture</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim velit ut, iure provident quis officia explicabo saepe, aut incidunt molestias natus. Deleniti hic facere, a atque voluptatum maiores provident. Odit!</p>
+                        <p>Unlock the benefits of yoga with our expert guidance and serene environment. Whether you're a beginner or a passionate yogi, our classes are tailored to enhance your strength, balance, and mindfulness.</p>
                         <div className="benefits-stats">
                             <Stats 
                                 statNumber={"350+"}

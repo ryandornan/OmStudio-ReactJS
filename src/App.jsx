@@ -7,6 +7,9 @@ import BenefitsTwo from "./sections/BenefitsTwo/BenefitsTwo";
 import Services from "./sections/Services/Services";
 import ContentBlock from "./sections/ContentBlock/ContentBlock";
 import Testimonials from "./sections/Testimonials/Testimonials";
+import Business from "./sections/Business/Business";
+import Contact from "./sections/Contact/Contact";
+import Footer from "./sections/Foooter/Footer";
 
 function App() {
   return (
@@ -27,6 +30,9 @@ function App() {
         CTA={"Learn More"}
         />
       <Testimonials />
+      <Contact />
+      <Business />
+      <Footer />
     </div>
   );
 }
