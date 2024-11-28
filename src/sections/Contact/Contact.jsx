@@ -6,7 +6,7 @@ function ContactForm() {
     return (
         <div className="container-full contact-background">
 
-            <div className="section">
+            <div className="section" id="contact">
                 <div className="container contact-container">
                     <h2 className="contact-heading pt-2">Want to know more?</h2>
                     <p className="pb-2">Fill in the form and one of our team will call you.</p>

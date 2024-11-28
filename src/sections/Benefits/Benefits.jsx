@@ -5,7 +5,7 @@ import Stats from "../../components/Stats/Stats";
 function Benefits () {
     return (
         <div className="container">
-            <div className="benefits section row">
+            <div className="benefits section row" id="benefits">
                 <div className="benefits-img-container col-6">
                     <img 
                         className="benefits-img"
@@ -31,7 +31,9 @@ function Benefits () {
                                 statText={"Years Experience"} 
                             />
                         </div>
-                        <button className="btn-primary mt-4">Sign Up Now</button>
+                        <a href="#contact">
+                            <button className="btn-primary mt-4">Sign Up Now</button>
+                        </a>
                     </div>
                 </div>
             </div>

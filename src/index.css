@@ -21,6 +21,11 @@ code {
   --accent-warning: #ffc107;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* index.css */
 body {
   margin: 0;
@@ -121,4 +126,8 @@ p {
   .section-header {
     font-size: 2rem;
   }
+}
+
+a {
+  text-decoration: none;
 }

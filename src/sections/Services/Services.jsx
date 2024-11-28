@@ -5,7 +5,7 @@ import ServiceCard from "../../components/ServiceCard/ServiceCard";
 
 function Services() {
     return (
-        <div className="container section">
+        <div className="container section" id="services">
             {/* Section Title */}
             <SectionTitle
                 className

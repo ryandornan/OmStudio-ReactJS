@@ -7,7 +7,9 @@ function Hero () {
             <div className="container hero-content section">
                 <h4 className="hero-sub-title">Om Studio</h4>
                 <h1 className="hero-title my-4">Body & Soul<br></br>Meditation Space</h1>
-                <button className="btn-primary shadow-btn mt-3">Welcome To Om Studio</button>
+                <a href="#benefits">
+                    <button className="btn-primary shadow-btn mt-3">Welcome To Om Studio</button>
+                </a>
             </div>
             </div>
             

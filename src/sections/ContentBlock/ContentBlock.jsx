@@ -9,7 +9,9 @@ function ContentBlock({ subheading, heading, CTA, backgroundImage }) {
             <div className="container section">
                 <h5>{subheading}</h5>
                 <h2>{heading}</h2>
-                <button className="btn-primary shadow-btn">{CTA}</button>
+                <a href="#contact">
+                    <button className="btn-primary shadow-btn">{CTA}</button>
+                </a>
             </div>
         </div>
     );
