@@ -16,25 +16,25 @@ function Business () {
                 <div className="business-info d-flex align-items-centre justify-content-between">
 
                     <BusinessCard
-                    img={"public/img/location.png"}
+                    img={"/img/location.png"}
                     title={"Location"}
                     info={"8, Dufferin Court"}
                     moreInfo={"Bangor BT20 3BX"}
                     />
                     <BusinessCard
-                    img={"public/img/phone-call.png"}
+                    img={"/img/phone-call.png"}
                     title={"Phone"}
                     info={"028 9146 2888"}
                     moreInfo={"07581 182629"}
                     />
                     <BusinessCard
-                    img={"public/img/mail.png"}
+                    img={"/img/mail.png"}
                     title={"Email"}
                     info={"hello@omstudio.com"}
                     moreInfo={"info@ryandornan.com"}
                     />
                     <BusinessCard
-                    img={"public/img/clock.png"}
+                    img={"/img/clock.png"}
                     title={"Hours"}
                     info={"Monday - Friday"}
                     moreInfo={"10:00am - 16:00pm"}
