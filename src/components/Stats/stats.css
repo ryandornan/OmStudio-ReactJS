@@ -1,0 +1,20 @@
+.stat-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 36px;
+}
+
+.stat-number {
+    font-weight: bold;
+    font-size: 48px;
+    color: var(--secondary-color);
+    display: block;
+    margin-bottom: -10px;
+}
+
+.stat-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+}

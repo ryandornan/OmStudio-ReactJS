@@ -1,0 +1,11 @@
+.service-cards {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+p {
+    margin: auto;
+    max-width: 600px;
+}

@@ -1,0 +1,32 @@
+.benefit {
+    background: var(--background-light);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-primary);
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-title {
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.benefit-info {
+    margin: 12px 0;
+}
+
+.benefit-img {
+    
+    margin: 16px 0;
+    padding: 16px;
+    border: solid 1px;
+    border-radius: 50px;
+    max-width: 100px;
+}

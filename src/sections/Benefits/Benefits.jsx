@@ -1,58 +1,42 @@
 import React from "react";
-import "./benefits.css";
+import "./benefits.css"
+import Stats from "../../components/Stats/Stats";
 
-function Benefits() {
-  const stats = [
-    { value: "165+", label: "Happy Customers" },
-    { value: "98%", label: "Efficiency" },
-    { value: "12", label: "Years of Experience" },
-  ];
-
-  return (
-    <section className="benefits-section section-light">
-      <div className="container">
-        <div className="row align-items-center">
-          {/* Left Column: Image */}
-          <div className="col-12 col-lg-6 text-center">
-            <img
-              src="https://via.placeholder.com/500" // Replace with actual image
-              alt="Yoga Pose"
-              className="benefits-image"
-            />
-          </div>
-
-          {/* Right Column: Text + Stats */}
-          <div className="col-12 col-lg-6">
-            <p className="benefits-subtitle text-uppercase">Our Benefits</p>
-            <h2 className="benefits-title">
-              The best way to increased flexibility and improve posture
-            </h2>
-            <p className="benefits-description">
-              We will develop for you a unique nutrition program for weight
-              loss and positive tone of the whole body.
-            </p>
-
-            {/* Stats */}
-            <div className="row benefits-stats text-center text-lg-start">
-              {stats.map((stat, index) => (
-                <div key={index} className="col-4">
-                  <h3 className="stat-value">{stat.value}</h3>
-                  <p className="stat-label">{stat.label}</p>
+function Benefits () {
+    return (
+        <div className="container">
+            <div className="benefits section row">
+                <div className="benefits-img-container col-6">
+                    <img 
+                        className="benefits-img"
+                        src="public/img/yoga-female-instructor.png" alt="" 
+                    />
                 </div>
-              ))}
+                <div className="benefits-text col-6">
+                    <h4>CHOOSE OM STUDIO</h4>
+                    <div className="benefits-lower-text">
+                        <h2 className="my-4">The best way to increased flexibility & improved posture</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim velit ut, iure provident quis officia explicabo saepe, aut incidunt molestias natus. Deleniti hic facere, a atque voluptatum maiores provident. Odit!</p>
+                        <div className="benefits-stats">
+                            <Stats 
+                                statNumber={"350+"}
+                                statText={"Happy Customers"} 
+                            />
+                            <Stats 
+                                statNumber={"10"}
+                                statText={"Amazing Intructors"} 
+                            />
+                            <Stats 
+                                statNumber={"20"}
+                                statText={"Years Experience"} 
+                            />
+                        </div>
+                        <button className="btn-primary mt-4">Sign Up Now</button>
+                    </div>
+                </div>
             </div>
-
-            {/* Call-to-Action Button */}
-            <div className="mt-4">
-              <button className="btn btn-primary benefits-button">
-                Get Now
-              </button>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-  );
+    )
 }
 
 export default Benefits;
