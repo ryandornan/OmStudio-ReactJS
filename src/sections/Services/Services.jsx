@@ -22,19 +22,19 @@ function Services() {
             {/* Service Cards */}
             <div className="service-cards">
                 <ServiceCard
-                    img={"public/img/yoga-class-female-2.png"} 
+                    img={"/img/yoga-class-female-2.png"} 
                     title={"Hatha Yoga"}
                     info={"One of the most common forms of yoga, focusing on physical exercises and breathing techniques."}
                     price={"£25 p/hour"}
                 />
                 <ServiceCard
-                    img={"public/img/yoga-male-instructor.png"} 
+                    img={"/img/yoga-male-instructor.png"} 
                     title={"Ashtanga Yoga"}
                     info={"A rigorous and structured style that includes six series of poses performed in a specific order."}
                     price={"£14 p/hour"}
                 />
                 <ServiceCard
-                    img={"public/img/yoga-two-teachers.png"} 
+                    img={"/img/yoga-two-teachers.png"} 
                     title={"Kundalini Yoga"}
                     info={"This form of yoga combines physical exercises, breathing techniques, and mantras to awaken inner energy."}
                     price={"£19 p/hour"}

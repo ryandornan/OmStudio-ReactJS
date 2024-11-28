@@ -4,7 +4,7 @@ import Benefit from "../../components/Benefit/Benefit";
 
 function BenefitsTwo() {
     return (
-        <div className="container-full benefits-two">
+        <div className="container-full benefits-two" id="classes">
             <div className="container section">
                 {/* Row to Structure Header and Benefits */}
                 <div className="row">

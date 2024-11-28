@@ -3,7 +3,7 @@
 .content-block {
     width: 100%;
     height: 700px; 
-    background: url("public/img/yoga-class-female-5.png");
+    background: url("/img/yoga-class-female-5.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

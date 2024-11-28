@@ -19,7 +19,7 @@ function Footer() {
                 <div className="col-4 footer-item">
                     <h3>Explore</h3>
                     <ul>
-                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#benefits">About Us</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#classes">Classes</a></li>
                         <li><a href="#contact">Contact</a></li>

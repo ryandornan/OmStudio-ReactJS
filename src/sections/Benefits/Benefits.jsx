@@ -9,7 +9,7 @@ function Benefits () {
                 <div className="benefits-img-container col-6">
                     <img 
                         className="benefits-img"
-                        src="public/img/yoga-female-instructor.png" alt="" 
+                        src="/img/yoga-female-instructor.png" alt="" 
                     />
                 </div>
                 <div className="benefits-text col-6">
